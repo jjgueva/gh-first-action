@@ -4,7 +4,7 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: imprime bienvenida
+      - name: imprime-bienvenida
         run : echo "bienvenido a actions"
-      - name: imprime salida
+      - name: imprime-salida
         run: echo "bye bye -----"
