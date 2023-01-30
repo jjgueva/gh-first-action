@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs_on: ubuntu-latest
+    steps:
+      - name: imprime bienvenida
+        run : echo "bienvenido a actions"
+      - name: imprime salida
+        run: echo "bye bye -----"
